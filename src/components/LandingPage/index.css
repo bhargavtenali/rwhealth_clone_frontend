@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  width: 100%;
+}
+.videoTag {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.app-container {
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.main-heading {
+  margin-left: 100px;
+  margin-top: 70px;
+  font-family: "Helv Thin", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 70px;
+  color: white;
+  font-weight: 10;
+}
+.text {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Calibri";
+  font-size: 20px;
+  color: white;
+  font-weight: 50;
+}
+.button {
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-family: "Helv Light", Helvetica, Arial, Lucida, sans-serif !important;
+  font-size: 20px;
+  font-weight: 200;
+  border-bottom: 3px white solid;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.logo-icon {
+  height: 30px;
+}
